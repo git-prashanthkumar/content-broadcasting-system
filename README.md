@@ -1,13 +1,13 @@
 # content-broadcasting-system (Backend)
 
 
-## 🚀 Overview
+## Overview
 
 This project is a backend system for broadcasting educational content to students. Teachers upload content, principals approve it, and students can access approved content via public APIs.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Node.js
 * Express.js
@@ -17,7 +17,7 @@ This project is a backend system for broadcasting educational content to student
 
 ---
 
-## 🔐 Features
+## Features
 
 * User Authentication (JWT)
 * Role-Based Access Control (Teacher / Principal)
@@ -27,7 +27,7 @@ This project is a backend system for broadcasting educational content to student
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 src/
 ├── controllers/
@@ -35,11 +35,11 @@ src/
 ├── services/
 ├── middlewares/
 ├── models/
-├── utils/
+
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -67,7 +67,7 @@ npm start
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### Auth
 
@@ -83,7 +83,7 @@ GET /content/live/:teacherId
 
 ---
 
-## 📤 Content Workflow
+## Content Workflow
 
 Teacher → Upload Content → Pending
 Principal → Approve / Reject
@@ -91,21 +91,21 @@ Approved Content → Available via API
 
 ---
 
-## ⚠️ Current Limitations
+## Current Limitations
 
-* ❌ Rotation/Scheduling logic is **not fully implemented yet**
-* ❌ No caching (Redis not implemented)
-* ❌ Basic validation only
+* Rotation/Scheduling logic is **not fully implemented yet**
+* No caching (Redis not implemented)
+* Basic validation only
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Use Postman to test APIs.
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Only approved content is visible via public API
 * JWT is required for protected routes
@@ -113,15 +113,11 @@ Use Postman to test APIs.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Implement rotation-based scheduling
 * Add Redis caching
 * Add pagination & filters
 * Improve validation & error handling
 
----
 
-## 👨‍💻 Author
-
-Prashanth Kumar G
