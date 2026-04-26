@@ -1,7 +1,7 @@
-import expess from "express";
+import express from "express";
 import multer from "multer";
 
-import { uploadContent, approveContent, rejectContent } from "../controllers/contentController";
+import { uploadContent, approveContent, rejectContent } from "../controllers/contentController.js";
 
 import auth from "../middlewares/authMiddleware.js";
 
